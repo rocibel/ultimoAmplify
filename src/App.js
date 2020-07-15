@@ -1,13 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Micomponenete from './componentes/Micomponente';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="App-title">Hola Rocibel hola</h1>
+        <h1 className="App-title">Hola Rocibel</h1>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,6 +20,10 @@ function App() {
         >
           Learn React
         </a>
+        <section className="Componentes">
+
+        <Micomponente/>
+      </section>
       </header>
     </div>
   );
