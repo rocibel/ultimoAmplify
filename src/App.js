@@ -1,9 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Micomponenete from './componentes/Micomponente';
+import Micomponente from './componentes/Micomponente';
 
+
+function HolaMundo(nombre,edad){
+  var presentacion=<div>
+    <h2>Hola, soy {nombre}</h2>
+    <h2>Tengo {edad} años</h2>
+  </div>
+  return presentacion;
+ 
+}
 function App() {
+  var nombre ="Rocibel Alvarado";
+
   return (
     <div className="App">
       <header className="App-header">
@@ -12,6 +23,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        {
+        HolaMundo(nombre,26)
+        }
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -21,7 +35,6 @@ function App() {
           Learn React
         </a>
         <section className="Componentes">
-
         <Micomponente/>
       </section>
       </header>
