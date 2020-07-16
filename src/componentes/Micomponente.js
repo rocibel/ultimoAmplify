@@ -6,7 +6,7 @@ class Micomponente extends Component{
 
     render(){
         return(
-            <h1> Hola LLamo al MiComponente</h1>
+            <h1> Hola LLamo al MiComponente nuevo</h1>
     
         );
     }
