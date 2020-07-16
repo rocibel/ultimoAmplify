@@ -1,3 +1,5 @@
+
+//componentes de clase
 import React,{Component} from 'react';
 
 class Micomponente extends Component{
